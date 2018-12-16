@@ -6,6 +6,11 @@
     -webkit-box-sizing: border-box;
     overflow-x: hidden
 }
+/* NAV */
+nav{
+    background-color: #000000;
+}
+
 /* WELCOME */
 .welcome-image{ 
     width: 100vw;
