@@ -7,14 +7,27 @@
     overflow-x: hidden
 }
 /* WELCOME */
-section.welcome{ 
+.welcome-image{ 
     width: 100vw;
     height:50vh;
-    background-image: url('https://picsum.photos/1200/300');
+    background-image: url('../img/welcome.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+.welcome-opacity{
+    width: 100vw;
+    height: 51vh;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    top:8vh;
+    overflow: hidden;
 }
 .welcome-text{
     display: block;
@@ -22,14 +35,29 @@ section.welcome{
     width: 100vw;
     height: 100%;
     top:20%;
-    left:-0%;
     overflow: hidden;
+    z-index: 2;
+    color:white;
 
 }
 /* FONTS */
 .text-green{
     color:#044012;
 }
+
+/* MIS & VIS */
+.leaf{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+/* PRODUCTS */
+.card{
+    height:300px;
+}
+
 
 /* CONTACT */
 .map-container-section {
