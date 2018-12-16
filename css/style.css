@@ -79,6 +79,9 @@ nav{
     width:100%;
     position:absolute;
   }
+  .icon-location{
+      padding:20px;
+  }
   /* FOOTER */
   .footer-copyright{
       background-color: #000000;
