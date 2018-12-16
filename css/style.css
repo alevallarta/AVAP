@@ -26,7 +26,7 @@
     background-color: black;
     opacity: 0.6;
     z-index: 1;
-    top:8vh;
+    top:15vh;
     overflow: hidden;
 }
 .welcome-text{
@@ -72,4 +72,10 @@
     height:100%;
     width:100%;
     position:absolute;
+  }
+  /* FOOTER */
+  .footer-copyright{
+      background-color: #000000;
+      color: #ffffff;
+
   }
