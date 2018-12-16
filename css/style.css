@@ -4,9 +4,44 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    overflow-x: hidden
 }
+/* WELCOME */
+section.welcome{ 
+    width: 100vw;
+    height:50vh;
+    background-image: url('https://picsum.photos/1200/300');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome-text{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top:20%;
+    left:-0%;
+    overflow: hidden;
 
+}
 /* FONTS */
 .text-green{
     color:#044012;
 }
+
+/* CONTACT */
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
