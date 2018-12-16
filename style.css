@@ -4,7 +4,8 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    overflow-x: hidden
+    overflow-x: hidden;
+
 }
 /* NAV */
 nav{
@@ -77,6 +78,9 @@ nav{
     height:100%;
     width:100%;
     position:absolute;
+  }
+  .icon-location{
+      padding:20px;
   }
   /* FOOTER */
   .footer-copyright{
