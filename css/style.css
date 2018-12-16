@@ -10,7 +10,7 @@
 .welcome-image{ 
     width: 100vw;
     height:50vh;
-    background-image: url('../img/welcome.jpg');
+    background-image: url('/img/welcome.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
