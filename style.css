@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow-x: hidden
+}
+/* NAV */
+nav{
+    background-color: #000000;
+}
+
+/* WELCOME */
+.welcome-image{ 
+    width: 100vw;
+    height:50vh;
+    background-image: url('../welcome.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+.welcome-opacity{
+    width: 100vw;
+    height: 51vh;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    top:15vh;
+    overflow: hidden;
+}
+.welcome-text{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top:20%;
+    overflow: hidden;
+    z-index: 2;
+    color:white;
+
+}
+/* FONTS */
+.text-green{
+    color:#044012;
+}
+
+/* MIS & VIS */
+.leaf{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+/* PRODUCTS */
+.card{
+    height:300px;
+}
+
+
+/* CONTACT */
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  /* FOOTER */
+  .footer-copyright{
+      background-color: #000000;
+      color: #ffffff;
+
+  }
