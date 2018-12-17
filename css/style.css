@@ -11,6 +11,21 @@
 nav{
     background-color: #000000;
     z-index: 3;
+
+}
+nav ul{
+    background-color:#BF9238;
+    margin:10px
+}
+@media screen and (max-width:467px){
+    nav ul li a{
+        text-align:center;
+    }
+    nav ul li:hover{
+        /* background-color: #044012; */
+        background-color:#BF9238;
+
+    }
 }
 /* WELCOME */
 .welcome-image{ 
